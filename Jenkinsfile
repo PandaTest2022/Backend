@@ -20,7 +20,7 @@ pipeline {
             }
 
         }
-        stage('Clone Frontend repo') {
+        stage('Clone Backend repo') {
             steps {
                 git branch: 'main', url: 'https://github.com/PandaTest2022/Backend.git'
             }
